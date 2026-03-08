@@ -1,0 +1,51 @@
+const brainrots = [
+  {name:"Capibarelino Apelino",color:"#fff"},
+  {name:"Daga-Tubo",color:"#fff"},
+  {name:"FluriFlura",color:"#fff"},
+  {name:"Holy Arepa",color:"#fff"},
+  {name:"La Foca Lasagnetta",color:"#fff"},
+  {name:"Lirili Larila",color:"#fff"},
+  {name:"Noobini Lapis Lazulini",color:"#fff"},
+  {name:"Noobini Pizzanini",color:"#fff"},
+  {name:"Noobini Santanini",color:"#fff"},
+  {name:"Penguino Pizza",color:"#fff"},
+  {name:"Pipi Corni",color:"#fff"},
+  {name:"Pipi Kiwi",color:"#fff"},
+  {name:"Pipi Peachi",color:"#fff"},
+  {name:"Pipi Strawberry",color:"#fff"},
+  {name:"Raccooni Jandelini",color:"#fff"},
+  {name:"Slimo Li Appluni",color:"#fff"},
+  {name:"Svinina Bombardino",color:"#fff"},
+  {name:"Talpa Di Fero",color:"#fff"},
+  {name:"Tartaragno",color:"#fff"},
+  {name:"Tim Cheese",color:"#fff"},
+  // Rare
+  {name:"A A A Sahur",color:"green"},
+  {name:"B B B Sahur",color:"green"},
+  {name:"Bandito Bobritto",color:"green"},
+  {name:"Boneca Ambalabu",color:"green"},
+  {name:"Brindolero Brindolina",color:"green"},
+  // Epic
+  {name:"Avocadini Antilopini",color:"purple"},
+  {name:"Avocadini Guffo",color:"purple"},
+  {name:"Bambini Crostini",color:"purple"},
+  {name:"Bananita Dolphinita",color:"purple"},
+  // Legendary
+  {name:"Aaaaaaaro Hamstero",color:"yellow"},
+  {name:"Aduh 9 April",color:"yellow"},
+  // Mythic
+  {name:"Avocadorilla",color:"red"},
+  {name:"Bananito Bandito",color:"red"},
+  // Brainrot God
+  {name:"Ä Ü Ö Ä Ü Ö Ä Sahur",color:"cyan"},
+  {name:"Alessio",color:"cyan"},
+  // Secret
+  {name:"1x1x1x1",color:"gray"},
+  {name:"25",color:"gray"},
+  // OG
+  {name:"John Pork",color:"gold"},
+  {name:"Meowl",color:"gold"},
+  {name:"Skibidi Toilet",color:"gold"},
+  {name:"Smurf Cat",color:"gold"},
+  {name:"Strawberry Elephant",color:"gold"},
+];
