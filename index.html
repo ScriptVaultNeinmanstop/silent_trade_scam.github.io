@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Silent Trade</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Rajdhani:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <div class="noise"></div>
+
+  <header>
+    <div class="header-glow"></div>
+    <h1>SILENT TRADE</h1>
+    <p class="subtitle">Made for Sab</p>
+  </header>
+
+  <main>
+    <section class="card user-card">
+      <label class="field-label" for="userId">TARGET USER ID</label>
+      <input id="userId" type="number" inputmode="numeric" pattern="[0-9]*" placeholder="Enter Roblox User ID" min="0" step="1">
+    </section>
+
+    <section class="card brainrots-section">
+      <div class="section-header">
+        <span class="field-label">SELECT BRAINROTS</span>
+        <span id="selCount" class="sel-count">0 selected</span>
+      </div>
+
+      <div class="filters">
+        <button class="filter-btn active" data-rarity="All">All</button>
+        <button class="filter-btn common" data-rarity="Common">⚪ Common</button>
+        <button class="filter-btn rare" data-rarity="Rare">🟢 Rare</button>
+        <button class="filter-btn epic" data-rarity="Epic">🟣 Epic</button>
+        <button class="filter-btn legendary" data-rarity="Legendary">🟡 Legendary</button>
+        <button class="filter-btn mythic" data-rarity="Mythic">🔴 Mythic</button>
+        <button class="filter-btn god" data-rarity="God">🧠 God</button>
+        <button class="filter-btn secret" data-rarity="Secret">⚫ Secret</button>
+        <button class="filter-btn og" data-rarity="OG">👑 OG</button>
+      </div>
+
+      <input id="searchBar" type="text" class="search-bar" placeholder="🔍 Search brainrots...">
+
+      <div id="brainrotList" class="brainrot-grid"></div>
+
+      <div class="quick-actions">
+        <button class="action-btn" id="selectAllBtn">Select All</button>
+        <button class="action-btn danger" id="clearBtn">Clear All</button>
+      </div>
+    </section>
+
+    <section class="buttons">
+      <button id="generateBtn" class="generate-btn">
+        <span class="btn-text">⚡ GENERATE SCRIPT</span>
+      </button>
+    </section>
+
+    <section class="output card" id="outputSection" style="display:none">
+      <div class="section-header">
+        <span class="field-label">GENERATED SCRIPT</span>
+        <button id="copyBtn" class="copy-btn">📋 Copy</button>
+      </div>
+      <pre id="scriptOutput"></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>By <span class="credit">Silent</span> and <span class="credit">nga_alt</span></p>
+  </footer>
+
+  <script src="brainrots.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
