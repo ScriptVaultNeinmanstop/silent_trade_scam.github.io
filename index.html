@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Trade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Silent Trade</h1>
+        <h2 id="subtitle">Made for Sab</h2>
+    </header>
+
+    <main>
+        <section id="user-section" class="card fade-slide">
+            <label for="user-id">Target User ID</label>
+            <input type="number" id="user-id" placeholder="Enter Roblox User ID">
+        </section>
+
+        <section id="brainrots-section" class="card fade-slide">
+            <h3>Brainrots for trade</h3>
+            <input type="text" id="search" placeholder="Search Brainrots..." class="search-bar">
+            <div id="brainrots-list" class="brainrots-grid"></div>
+        </section>
+
+        <button id="generate-btn" class="glow-btn">Generate Script</button>
+
+        <div id="output-container" class="card fade-slide hidden">
+            <textarea id="script-output" readonly></textarea>
+            <button id="copy-btn" class="glow-btn">Copy Script</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>By Silent and nga_alt</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
